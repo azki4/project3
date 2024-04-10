@@ -21,10 +21,12 @@
     <script>
       var map;
       function initMap() {
+        var iit = {lat: 41.8346528, lng: -87.62833};
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+          center: iit,
+          zoom: 15
         });
+        var marker = new google.maps.Marker({position: iit, map: map});
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
