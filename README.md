@@ -1,2 +1,2 @@
 # project3
-This is for project 3.
+Hello everyone. This is my project 3. Please let me know if there is anything to fix!
