@@ -1,0 +1,19 @@
+/* Style the map container */
+#map {
+  height: 50vh;  /* Specify a height */
+  width: 100%;  /* Max width */
+  margin: 0 auto;  /* Center the map */
+  border: 0.1em solid black;  /* Add a border */
+  border-radius: 1em;  /* Optional: Add a border radius for rounded corners */
+}
+
+/* Optional: Add some padding and margin to the page */
+body {
+  padding: 2em;
+  margin: 0;
+}
+
+/* Optional: Style the HTML elements on your page */
+h1, p {
+  font-family: Roboto, Times New Roman;
+}
