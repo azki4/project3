@@ -2,8 +2,8 @@
 h1, h3 {
   font-family: 'Roboto', 'Times New Roman';
   color: black;
-  margin-bottom: 20px;
-  padding: 0.1em;
+  margin-bottom: 1.25em;
+  padding: 0.00625em;
   position: relative;
 }
 
@@ -63,7 +63,7 @@ section {
   background-color: #c57fc5;
   padding: 1.5em;
   border-radius: 1em;
-  box-shadow: 0.5em 0.5em 2em rgba(0, 0, 0, 0.3);
+  box-shadow: 0.03125em 0.03125em 0.125em rgba(0, 0, 0, 0.3);
   margin: 3em auto;
   max-width: 70rem;
   color: white;
@@ -90,36 +90,41 @@ footer {
 }
 
 .food-item, li {
-    flex: 1 0 21%; /* grow | shrink | basis */
+    flex: 1 0 21%;
     margin: 1%;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 5px; 
+    border-radius: 0.3125em; 
 }
 
 .food-item:hover, li:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
 	
 }
 
 .food-item img {
-    width: 200px;
-    height: 200px; 
+    width: 12.5em;
+    height: 12.5em; 
     object-fit: cover;
 }
 
 li img {
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
     object-fit: cover;
 }
 
 .food-item p, li p {
-    padding: 15px;
+    padding: 0.9375em;
     text-align: center;
 }
 
 #series ul {
   list-style-type: none;
+}
+
+#map {
+  text-align: left;
+  height: 25vh;
 }
